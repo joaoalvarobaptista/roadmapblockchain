@@ -7,14 +7,39 @@
 
 body {
   background-color: #ccc;
+  font-family: sans-serif;
   padding: 0;
   margin: 0; 
 }
-header {
-    text-align:center;
-    color: white;
 
+.cabecalho {
+  background-color: yellow;
+  background-image: url(./imagens/bg-3.jpg);
+  background-size: cover;
+  background-position: right center;
+  text-align: center;
+  color: white;
+  height: 300px;
+  margin: 0;
+  padding: 0;
 }
+
+.cabecalho h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 2px balck;
+    text-transform: uppercase;
+}
+.cabecalho p {
+    width: 60%;
+    min-height: 21px;
+    margin-bottom: 10px;
+    margin: auto;
+    padding: 5px;
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(0,0,0,0.7);
+    border-bottom: 1px solid white;
+}
+
 
 header nav {
     text-align: right;
@@ -31,23 +56,66 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: gray;
+    display: block;
+    background-color: rgba(0,0,0,0.3);
     border: 1px solid white;
-
+    font-size:12px;
 }
 
 header nav ul li a:hover {
     text-decoration: underline;
-    color: black;
-    background-color: #ccc;
+    background-color: rgba(0,0,0,0.5);
     border: none;
 }
 
-header {
-  background-color: yellow;
-  background-image: url(./imagens/bg-3.jpg);
-  background-size: cover;
-  height: 300px;
-  margin: 0;
-  padding: 0;
+main {
+    width: 90vw;
+    min-width: 350px;
+    max-width: 860px;
+    margin: auto;
 }
+
+section {
+    background-color: white;
+    margin: 16px; 
+    padding: 16px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 32px;
+    background-color: rgba(0,0,0,0.3);
+    border-bottom: 1px solid black;
+    margin: 5px;   
+    padding: 10px ;
+
+}
+
+.text {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+footer {
+    height: 30px;
+    background-color: gray;
+    color: white;
+
+}
+
+footer p {
+    text-align: center;
+    padding: 5px;
+}
+
