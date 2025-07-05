@@ -99,12 +99,15 @@ h2 {
     margin-right: 5px;
 }
 
-button {
-    width: 100px;
-    height: 30px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 2px;
+.btn {  
+    background-color: #cdc7c3 ;
+    display: block;
+    padding: 12px; 
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
 }
 
 footer {

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Trabalhando com Float e Clear</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+
+        #container {
+            width: 80%;
+            background-color: #ccc;
+            padding: 15px;
+        }
+
+        #container div {
+            background-color: rgba(255,0,0, 0.3);
+            margin-bottom: 5px;
+            width: 45%;
+            height: 50px;
+        }
+        
+        #div1 {
+            float: left;
+
+        }
+
+        #div2 {
+            float:  right;
+
+        }
+
+        #div3 {
+            clear: right;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+
+        <div id="div1">
+            div 1
+        </div>
+
+        <div id="div2">
+            div 2 
+        </div>
+
+        <div id="div3">
+            div 3
+        </div>
+
+    </div>
+
+</body>
+</html>
