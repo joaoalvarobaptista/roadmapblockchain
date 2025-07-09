@@ -3,6 +3,7 @@
 body {
     background-color: #00feff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +13,6 @@ body {
 h1 {
     font-size: 24px;
     color: #315758;
-    margin-top: 50px;
     margin-bottom: 15px;
 
 }
@@ -24,10 +24,11 @@ img {
 
 .container {
     background-color: white;
-    width: 400px;
+    width: 500px;
     height: 350px;
-    margin: auto;
-    overflow: auto;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
 }
 
 ul {
@@ -65,21 +66,24 @@ li div {
 
 .username {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: #585d58;
+    margin: 0;
 }
 
 .email {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #ccc;
-    padding-top: 5px;
+    margin: 5px 0 0;
 }
 
 .information {
     display: flex;
+    margin:0;
     flex-direction: column;
-    align-content: space-between;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 li:hover {
@@ -88,11 +92,18 @@ li:hover {
 }
 
 .icons {
-    display: flex;    
     flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+    opacity: 0;
+    display: flex;
 }
 
 .icons img {
     width: 15px;
-    margin: 10px
+}
+
+li:hover .icons {
+    opacity: 0.3;
 }

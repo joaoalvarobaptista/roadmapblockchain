@@ -1,0 +1,21 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 500px;
+    max-height: 800px;
+}
+
+.container-list--header {
+    height: 100px;
+    width: 200px;
+}
