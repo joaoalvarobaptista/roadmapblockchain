@@ -1,0 +1,4 @@
+cor 01 #0C1013 "preto"
+cor 02 #20262C Cinza escuro
+cor 03 #CBE200 Verde
+

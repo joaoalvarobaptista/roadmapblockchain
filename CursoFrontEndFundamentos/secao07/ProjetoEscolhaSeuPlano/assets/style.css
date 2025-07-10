@@ -1,0 +1,136 @@
+@charset 'utf-8';
+/*
+ *cor 01 #0c1013 - preto(fundo)
+ *cor 02 #20262c - cinza escuro (planos)
+ *cor 03 #cbe200 - verde (botoes)
+ * */
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #0c1013;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 16px;
+
+}
+
+.hero .hero-title {
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.hero .hero-navigation--menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .hero-navigation--item a {
+    text-decoration: none;
+    text-transform: uppercase;  
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+    
+}
+
+.hero .hero-navigation--item a:hover {
+    border-radius: 5px;
+    background-color: #CBE200;
+    color: #20262C;
+    
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+}
+
+.container .container-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin: 50px 0 40px;
+}
+
+.container .container-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container .container-list .container-list--plan {
+    background-color: #20262C;
+    padding: 16px;
+    height: 300px;
+    width: 180px;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    justify-content: space-between;
+}
+
+.container .container-list .container-list--name {
+    text-transform: uppercase;
+    align-self: flex-start;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CBE200;
+}
+
+.container .container-list .container-list--price {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+
+.container .container-list .container-list--details {
+    list-style: disc;
+    padding-left: 15px;
+    font-size: 8px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}   
+
+.container .container-list .container-list--details li{
+    padding-top: 10px;
+}
+
+
+.container .container-list .container-list--buttom {
+    font-size: 14px;
+    color: #20262C;
+    background-color: #CBE200;
+    padding: 8px;
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
