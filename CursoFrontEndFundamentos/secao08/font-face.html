@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Font-face</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+
+        @font-face {
+            font-family: nadia;
+            src: url(fonts/nadia/nadia-serif.ttf) format("truetype"),
+            url(fonts/nadia/nadia-serif.svg) format("svg"),
+            url(fonts/nadia/nadia-serif.eot) format("eot");
+
+        }
+
+        @font-face {
+            font-family: Orbitron;
+            src: url(fonts/Orbitron-VariableFont_wght.ttf);
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        h1 {
+           /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+            font-family: Orbitron;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            line-height: 1.8;
+            letter-spacing: 1.2px;
+            width: 300px;
+            margin: 16px auto;
+            text-align: justify;
+            text-indent: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Font-face</h1>
+    <p>
+    Amet adipisicing ratione rerum minus numquam. Iure ad ipsa numquam excepturi iste Nesciunt minima repellendus nulla nostrum quia Libero iste eos quod aliquid modi eligendi. Inventore cum porro atque doloremque
+    </p>
+
+    <p>Agora eu vou tentar escrever com linguagem matemática aqui ! \( E = mc^{2}\)</p>
+
+    <p>Aqui eu vou tentar escrever uma integral \(\displaystyle \int^{a}_{b}
+    f(x) dx = F(a) - F(b) \) onde \(F(x)\) é dita primitiva de \(f(x)\)</p>
+
+    <p>Aqui eu vou escrever um vetor em matemática \(\vec{a} \)</p>
+</body>
+</html>
