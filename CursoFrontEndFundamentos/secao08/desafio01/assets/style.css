@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+html {
+    /*Variáveis de configuração*/
+    --header-color: #162028;
+    --font-secondary-color: #bebdbf;
+    --font-primary-color: #262424;
+    --font-menu: #45525e;
+    --footer-color: #0a171f;
+
+}
+
+body {
+    background-color: var(--header-color);
+    color: var(--font-menu);
+}
