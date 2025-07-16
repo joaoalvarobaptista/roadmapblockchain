@@ -1,5 +1,22 @@
 @charset 'utf-8';
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html, body {
+    width: 100%;
+}
+
 html {
     /*Variáveis de configuração*/
     --header-color: #162028;
@@ -7,8 +24,18 @@ html {
     --font-primary-color: #262424;
     --font-menu: #45525e;
     --footer-color: #0a171f;
+    --font-title-secondary: "Cormorant Garamond", serif;
+    --font-title-primary: "Libre Caslon Display", serif;
+    --font-text: "Roboto", sans-serif;
+    font-size: 62.5%;
 
 }
 
-body {
+.site-header {
+    
 }
+
+h1 {
+    font-family: var(--font-title-primary);
+}
+
