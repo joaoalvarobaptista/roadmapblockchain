@@ -15,13 +15,15 @@ ul {
 
 html, body {
     width: 100%;
+    margin: auto;
 }
 
 html {
     /*Variáveis de configuração*/
     --header-color: #162028;
     --font-secondary-color: #bebdbf;
-    --font-primary-color: #262424;
+    --font-primary-color: #565556;
+    --section-color: #003d52;
     --font-menu: #45525e;
     --footer-color: #0a171f;
     --font-title-secondary: "Cormorant Garamond", serif;
@@ -31,11 +33,146 @@ html {
 
 }
 
+
 .site-header {
-    
+    background-color: var(--header-color);
+    width: 95vw;
+    height: fit-content;
+    margin: 1.6rem auto;
+    padding-top: 1px;
 }
 
-h1 {
+.site-header .site-header--topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .6rem 3.2rem  .6rem 14rem;
+}
+
+.site-header .site-header--topbar .site-header--title{
     font-family: var(--font-title-primary);
+    font-size: 3.2rem;
+    color: #fffff1;
+    letter-spacing: 0.2rem;
+
+}
+
+.site-header .site-header--topbar ul {
+    display: flex;
+    gap: 4.8rem;
+    font-size: 1.4rem;
+}
+
+.site-header .site-header--topbar a {
+    font-family: var(--font-text);
+    color: var(--font-menu);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4rem;
+}
+
+.site-header .site-header--topbar a:hover {
+    color: #fffff1;
+    text-decoration: underline;
+}
+
+.site-header .site-header--hero img {
+    width: 100%;
+}
+main {
+    width: 95vw;
+    margin: auto;
+}
+
+.intro .intro-title {
+    font-family: var(--font-title-secondary);
+    font-size: 3.6rem;
+    text-align: center;
+    margin-top: 9rem;
+    color: var(--font-primary-color);
+}
+
+.intro .intro--content {
+   font-size: 1.6rem;
+   font-family: var(--font-text);
+   line-height: 3rem;
+   width: 84%;
+   margin: auto;
+   text-align: center;
+   margin-top: 3rem;
+}
+
+.intro .intro-product--list {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .intro-product--list h3 {
+    font-family: var(--font-text);
+    font-size: 1.6rem;
+    color: var(--font-primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 1.6rem;
+}
+
+.intro .intro-product--list p {
+    font-family: var(--font-text);
+    font-size: 1.6rem;
+    color: var(--font-primary-color);
+    text-align: center;
+}
+
+.secondary-content {
+    color: #fffff1;
+    background-color: var(--section-color);
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 76vh;
+    margin-top: 7.8rem;
+}
+
+.secondary-content .secondary-content--title {
+   font-family: var(--font-title-secondary);
+   font-size: 4.6rem;
+   text-align: left;
+   text-transform: uppercase;
+   width: 80%;
+   padding-top: 12rem;
+   margin: auto;
+   line-height: 6rem;
+}
+
+.secondary-content p {
+    font-family: var(--font-text);
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.16rem;
+    width: 60%;
+    text-align: left;
+    margin-left: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+footer {
+    background-color: var(--footer-color);
+    color: white;
+    margin-bottom: 3.2rem;
+}
+
+footer p {
+    text-align: center;
+    letter-spacing: .2rem;
+    font-family: var(--font-text);
+    font-size: 1.2rem;
+    color: white;
+    padding: 2.2rem;
 }
 
