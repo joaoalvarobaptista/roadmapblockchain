@@ -116,7 +116,8 @@ main {
 
 .container-courses {
     width: 100%;
-    height: 90vh;
+    height: fit-content;
+    padding-bottom: 0.1rem;
     background-color: #fafafa;
 
 }
@@ -180,9 +181,97 @@ main {
     width: fit-content;
     padding: 1.6rem 3.6rem 1.6rem 3.6rem;
     margin: 6rem auto;
-    margin-bottom: 1px;
+    margin-bottom: 1rem;
     border-radius: .6rem;
     background-color: var(--buttom-color);
 
+}
+
+.container-scholl {
+    background-color: var(--section2-color);
+    color: white;
+    font-family: var(--main-font);
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+.container-scholl .container-scholl--img img{
+    width: 100px;
+    margin-left: 10rem;
+}
+
+.container-scholl .container-scholl--content h2 {
+    font-size: 2.8rem;
+    margin-top: 9rem;
+}
+
+.container-scholl .container-scholl--content p {
+    max-width: 45rem;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 4rem;
+
+}
+
+.container-contact {
+    font-family: var(--main-font);
+    height: calc(100vh - var(--header-size));
+    width: 100%;
+    padding: 10rem;
+    margin: auto;
+    display: flex; 
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container-contact div {
+    display: flex; 
+    flex-direction: column;
+    width: 60%;
+}
+
+.container-contact h2 {
+    font-size: 3.6rem;
+    text-align: center;
+    padding-bottom: 5rem; 
+    
+}
+.container-contact img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.container-contact p {
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    letter-spacing: .2rem;
+    max-width: 25rem;
+    text-align: right;
+
+    align-self: flex-end;
+}
+
+footer {
+    height: var(--header-size);
+    background-color: var(--header-footer-color);
+    color: white;
+    font-family: var(--main-font);
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0.8rem;
 }
 
