@@ -68,7 +68,17 @@ Nesta seção, listo os projetos que desenvolvi para aplicar os conhecimentos de
 Uma lista de cursos, livros e canais que têm sido fundamentais na minha jornada.
 
 - **Cursos:**
-  - [Nome do Curso da Udemy] - Excelente para...
+  - [Curso Serliv - Web Frontend Fundamentos HTML CSS JS - Prof Daniel Tapias
+    Morales] - Excelente para
+    aprender e solidificar conhecimentos na triad do Frontend e diversos tópicos
+    de Design.
+  - [Cursos do canal Curso em Vídeo - HTML5 CSS3 - Professor Gustavo
+    Guanabara]- Excelente curso com opção gratuita (sem certificado) no Youtube.
+  - [Cursos Beholder2 - Professor Luiz Duarte] - Excelente para aprendizado das
+    tecnologias blockchain, linguagem NodeJS e desenvolvimento de robos de
+    negociação. 
+  - [Curso Web23] - Curso para desenvolvimento de DApps, linguagens Solidity,
+    desenvolvimento frontend com React e tecnologias. 
 - **Documentação:**
   - [MDN Web Docs](https://developer.mozilla.org/) - A bíblia do desenvolvimento web.
 - **Livros:**
