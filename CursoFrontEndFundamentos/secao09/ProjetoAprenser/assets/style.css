@@ -240,11 +240,12 @@ main {
     font-size: 3.6rem;
     text-align: center;
     padding-bottom: 5rem; 
-    
+    flex-shrink: 0.7;    
 }
 .container-contact img {
     max-width: 100%;
     margin: auto;
+    flex-shrink: 0.5;
 }
 
 .container-contact p {
@@ -254,8 +255,9 @@ main {
     letter-spacing: .2rem;
     max-width: 25rem;
     text-align: right;
-
+    
     align-self: flex-end;
+    flex-shrink: 1;
 }
 
 footer {
