@@ -84,7 +84,15 @@ Uma lista de cursos, livros e canais que têm sido fundamentais na minha jornada
 - **Livros:**
   - "JavaScript: O Guia Definitivo" por David Flanagan
 - **Canais do YouTube:**
+  - [Luiz Tools](https://www.youtube.com/@LuizTools) - Excelente canal em lingua
+    pt-BR que trata sobre tecnologias blockchain.
+  - [Curso em Vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo) - Canal de
+    cursos de tecnologias.
+  - [Canal Serliv](https://www.youtube.com/@serliv) - Excelente canal sobre
+    discussões Frontend
   - [Filipe Deschamps](https://www.youtube.com/c/FilipeDeschamps) - Ótimas discussões sobre o mercado e tecnologias.
+  - [Kevin Powell](https://www.youtube.com/@KevinPowell) - Excelente canal sobre
+    CSS.
 
 ## 👋 Como Contribuir
 
