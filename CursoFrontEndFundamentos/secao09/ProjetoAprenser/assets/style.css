@@ -42,7 +42,10 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1.6rem;
-}
+    position: sticky;
+    top: 0;
+    left: 0;
+}       
 
 .header-logo--img {
     width: 12rem;
