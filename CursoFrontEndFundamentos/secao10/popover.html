@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Popover</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Curso de Web designer - popover</h1>
+
+    <button popovertarget="my-popover">Toggle popover</button>
+    <div id="my-popover" popover>Este texto é aberto ao clicar no botão</div>
+
+    <hr>
+    
+    <button popovertarget="my-popover2">popover auto (default)</button>
+    <div id="my-popover2" popover="auto">Este texto é aberto ao clicar no botão 2</div>
+    
+    <hr>
+
+    <button popovertarget="my-popover3">popover auto (default)</button>
+    <div id="my-popover3" popover="manual">Este texto não fecha ao clicar fora</div>
+
+    <hr>
+    
+    <button popovertarget="my-popover4" popovertargetaction="show">popover auto (default)</button>
+    <button popovertarget="my-popover4" popovertargetaction="hide">popover auto (default)</button>
+    <div id="my-popover4" popover="manual">Este texto é aberto ao clicar no botão 2</div>
+
+
+
+</body>
+</html>
