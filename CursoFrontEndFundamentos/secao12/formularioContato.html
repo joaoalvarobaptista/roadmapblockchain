@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Formulário Contato</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="formularioContato.css">
+</head>
+<body>
+    <form action="" method="POST" autocomplete="off">
+        <fieldset>
+            <legend>Formulário de Contato</legend>
+            <label for="name"> Nome:
+                 <input id="name" type="text" name="name" placeholder="digite seu nome" required>
+            </label>
+
+            <label for="email">E-mail:
+                <input id="email" type="email" name="email" required
+                placeholder="digite um e-mail válido">
+            </label>
+
+            <label for="subject">Sobre: 
+                <input id="subject" type="text" name="subject"
+                placeholder="digite um assunto">
+            </label>
+
+            <label for="message">Mensagem
+                <textarea rows="7" maxlength="1000" minlength="20"
+                    placeholder="Digite sua mensagem" required></textarea>
+            </label>
+
+            <button type="submit" value="Enviar" class="btn">Enviar</button>
+           
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
