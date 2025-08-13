@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="#" method="get" autocomplete="off" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__title">Login</legend>
+            <label for="user" class="form__label">Usuário
+                <input id="user" type="text" name="user" required
+                class="form__input">
+            </label>
+
+            <label for="passwd" class="form__label">Senha
+                <input id="passwd" type="password" name="passwd" required minlength="5" class="form__input">
+            </label>
+
+            <div class="form__action">
+                <input type="submit" value="Login" class="btn btn-primary">
+                <a href="cadastro.html"
+                    class="btn btn-secondary">Cadastre-se</a>
+                <a href="#"
+                    class="form__action__aside">Esqueci a senha</a>
+            </div>
+
+        </fieldset>
+
+   </form>
+</body>
+</html>
