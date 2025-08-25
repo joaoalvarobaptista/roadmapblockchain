@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+a[href="#"]:not(.link_ok) {
+    color: red;
+    opacity: .2;
+
+}
+
+a[href^="http"] {
+    color: greenyellow;
+}
+
+a[href$="pdf"] {
+    color: purple;
+}
+
+a[target] {
+    text-decoration: none;
+}
+
