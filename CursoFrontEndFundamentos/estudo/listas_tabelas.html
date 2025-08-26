@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Estudo de listas e tabelas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="listas_tabelas.css">
+</head>
+<body>
+   <div class="container">
+
+       <h1 class="title">Estudo de listas e tabelas.</h1>
+
+       <h2>Listas não ordenadas.</h2>
+
+       <p>Aqui eu vou colocar uma lista não ordenada</p>
+
+       <ul>
+           <li>item 01</li>
+           <li>item 02</li>
+           <li>item 03</li>
+           <li>item 04</li>
+       </ul>
+
+       <p>podemos colocar listas dentro de listas.</p>
+
+       <ul>
+           <li>item 01
+                <ul>
+                    <li>sub-item 01</li>
+                    <li>sub-item 02</li>
+                </ul>
+           </li>
+           <li>item 02</li>
+       </ul>
+
+       <h2>Listas de definição</h2>
+
+       <p>Listas de definição são utilizadas para definir coisas. POr exemplo
+       podemos usar listas de definição para escrever um material sobre
+       matemática definindo determinado conteúdo. Para exemplo vou fazer uma
+       lista sobre Algebra Linear definindo espaço vetorial.</p>
+
+       <dl>
+           <dt>Espaço vetorial</dt>
+           <dd>Dado um conjunto não vazio, dizemos que ele é um espaço vetorial
+           sobre R se existem duas operações definidas com as propriedades
+            <ul>
+                <li>Adição
+                    <ul>
+                        <li>Comutativa</li>
+                        <li>Associativa</li>
+                        <li>Existencia de Elemento Neutro</li>
+                        <li>Existência de oposto</li>
+                    </ul>
+                </li>
+                <li>Produto por escalar
+                    <ul>
+                        <li>Comutativa</li>
+                        <li>Distributividade do escalar em relação ao vetor</li>
+                        <li>Distributividade do vetor em relação ao escalar </li>
+                        <li>Elemento neutro. </li>
+                    </ul>
+                </li>
+
+            </ul>
+           </dd>
+       </dl>
+        
+       <h2>Lista ordenada.</h2>
+
+       <p>Uma lista ordenada tem característica similar a lista não ordenada,
+       mas os elementos são enumerados dando a eles uma ordenação. </p>
+
+       <ol>
+           <li>item 01</li>
+           <li>item 02</li>
+           <li>item 03</li>
+           <li>item 04</li>
+       </ol>
+
+
+       <h2>Tabelas</h2>
+
+       <p>usamos a tag table para escrever uma tabela. </p>
+
+       <table>
+           <tr>
+               <td>celula 1.1</td>
+               <td>celula 1.2</td>
+           </tr>
+           <tr>
+               <td>celula 2.1</td>
+               <td>celula 2.2</td>
+           </tr>
+       </table>
+
+       <p>para mesclar células, iremos utilizar as propriedades colspan e
+       rowspan na tag td.</p>
+
+       <h2>Tabela com coluna mesclada</h2>
+
+       <table>
+           <tr>
+               <td colspan="2">linha 1.1</td>
+           </tr>
+           <tr>
+               <td>item 2.1</td>
+               <td>item 2.2</td>
+           </tr>
+       </table>
+
+       <h2>Tabela com linha mesclada</h2>
+
+       <table>
+           <tr>
+               <td rowspan="2">mesclado</td>
+               <td>item 1.2</td>
+           </tr>
+           <tr>
+               <td>item 2.2</td>
+           </tr>
+           <tr>
+               <td>item 3.1</td>
+               <td>item 3.2</td>
+           </tr>
+       </table>
+
+
+   </div>
+</body>
+</html>
