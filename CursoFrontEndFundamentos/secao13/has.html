@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title></title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        p:has(a) {
+            background-color: #ccc;
+        }
+
+        p:has(.teste) {
+            background-color: yellow;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+
+        th, td {
+            border-bottom: 1px solid black;
+            padding: 1.5em;
+
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tr:hover {
+            background-color: #e9e9e9;
+        }
+
+/*        tr:has(input[type="checkbox"]:checked) {
+            background-color: #aaffaa;
+        } */
+
+        tr:has(td:first-child input[type="checkbox"]:checked) {
+            background-color: #aaffaa;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsa soluta tenetur pariatur repudiandae. Nobis debitis magnam
+    natus cumque in! Unde natus eligendi aliquam culpa totam Sint corporis
+    nesciunt minus ex rem Dignissimos libero molestias ad consequuntur et
+    distinctio Quisquam eaque ipsa dolor eius harum vitae, ducimus. Aliquid
+    numquam incidunt excepturi quis assumenda est! Tempore cum nobis veniam non
+    quas! Harum eum consectetur quos rerum ratione dolorum. Voluptate soluta
+    fuga tenetur impedit maxime Dignissimos odit nesciunt excepturi mollitia
+    quae corrupti Doloribus quas eligendi voluptates fugiat laborum, incidunt
+    temporibus. Vitae voluptatibus mollitia id voluptas dicta deleniti, eius?
+    Corrupti fuga magni iure<a href="#" class="teste"> maxime amet perferendis.</a> Non mollitia non tempora nemo. </p>
+    <p>Lorem ipsa soluta tenetur pariatur repudiandae. Nobis debitis magnam
+    natus cumque in! Unde natus eligendi aliquam culpa totam Sint corporis
+    nesciunt minus ex rem Dignissimos libero molestias ad consequuntur et
+    distinctio Quisquam eaque ipsa dolor eius harum vitae, ducimus. Aliquid
+    numquam incidunt excepturi quis assumenda est! Tempore cum nobis veniam non
+    quas! Harum eum consectetur quos rerum ratione dolorum. Voluptate soluta
+    fuga tenetur impedit maxime Dignissimos odit nesciunt excepturi mollitia
+    quae corrupti Doloribus quas eligendi voluptates fugiat laborum, incidunt
+    temporibus. Vitae voluptatibus mollitia id voluptas dicta deleniti, eius?
+    Corrupti fuga magni iure maxime amet perferendis. <a href="#">Non mollitia</a> non tempora
+    nemo.   </p>
+    <p>Lorem ipsa soluta tenetur pariatur repudiandae. Nobis debitis magnam natus cumque in! Unde natus eligendi aliquam culpa totam Sint corporis nesciunt minus ex rem Dignissimos libero molestias ad consequuntur et distinctio Quisquam eaque ipsa dolor eius harum vitae, ducimus. Aliquid numquam incidunt excepturi quis assumenda est! Tempore cum nobis veniam non quas! Harum eum consectetur quos rerum ratione dolorum. Voluptate soluta fuga tenetur impedit maxime Dignissimos odit nesciunt excepturi mollitia quae corrupti Doloribus quas eligendi voluptates fugiat laborum, incidunt temporibus. Vitae voluptatibus mollitia id voluptas dicta deleniti, eius? Corrupti fuga magni iure maxime amet perferendis. Non mollitia non tempora nemo. </p>
+    <p>Lorem ipsa soluta tenetur pariatur repudiandae. Nobis debitis magnam natus cumque in! Unde natus eligendi aliquam culpa totam Sint corporis nesciunt minus ex rem Dignissimos libero molestias ad consequuntur et distinctio Quisquam eaque ipsa dolor eius harum vitae, ducimus. Aliquid numquam incidunt excepturi quis assumenda est! Tempore cum nobis veniam non quas! Harum eum consectetur quos rerum ratione dolorum. Voluptate soluta fuga tenetur impedit maxime Dignissimos odit nesciunt excepturi mollitia quae corrupti Doloribus quas eligendi voluptates fugiat laborum, incidunt temporibus. Vitae voluptatibus mollitia id voluptas dicta deleniti, eius? Corrupti fuga magni iure maxime amet perferendis. Non mollitia non tempora nemo. </p>
+
+    <hr>
+
+    <table>
+        <tr>
+            <th></th>
+            <th>Nome</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>João Alvari</td>
+            <td>email: teste@gmail.com</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Daiana Amália</td>
+            <td>email: teste@gmail.com</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Isadora Rosa </td>
+            <td>email: teste@gmail.com</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>Geralda das Gracas</td>
+            <td>email: teste@gmail.com</td>
+        </tr>
+
+    </table>
+</body>
+</html>

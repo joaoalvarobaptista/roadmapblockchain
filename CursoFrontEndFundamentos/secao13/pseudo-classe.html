@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Pseudo Classe</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        button {
+            background-color: rgb(122,121,121);
+            color: white;
+            border: none;
+            padding: 1em;
+            margin-bottom: .5em;
+        }
+
+        button:disabled {
+            opacity: .5;
+        }
+
+        p:empty::before {
+            content: "parágrafo vazio ????";
+            
+        }
+
+        a:focus {
+            background-color: yellow;
+        }
+
+        input[type="text"]:read-write {
+            background-color: #999;
+            border: none;
+            padding: 10px;
+        }
+
+        input[type="text"]:disabled {
+            background-color: white;
+        }
+
+        input[type="text"]:read-only:not(:disabled) {
+            background-color: yellow;   
+        }
+
+        input[type="text"]::placeholder {
+            color: white;
+        }
+
+        input[type="text"]:placeholder-shown {
+            background-color: aqua;
+        }
+
+
+    </style>
+</head>
+<body>
+    <button>Vai</button>
+    <br>
+    <button disabled>Vai disabled</button>
+
+    <p>Sit mollitia eligendi consectetur ratione facere rem officiis? Porro totam.</p>
+
+    <p>  </p>
+
+    <p></p>
+
+
+    <ul>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+    </ul>
+
+    <p tabindex="0">Elit libero quasi nostrum ullam!</p>
+    <p>Elit libero quasi nostrum ullam!</p>
+    <p>Elit libero quasi nostrum ullam!</p>
+    <p>Elit libero quasi nostrum ullam!</p>
+
+
+    <form action="#">
+       <input type="text" value="valor inicial"><br><br>
+       <input type="text" value="valor" disabled><br><br>
+       <input type="text" value="valor" readonly><br><br>
+       <input type="text" placeholder="placeholder"><br><br>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    
+
+</body>
+</html>
