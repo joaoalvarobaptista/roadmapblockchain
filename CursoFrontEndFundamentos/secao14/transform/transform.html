@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Transform</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            margin-bottom: 100vh ;
+        }
+
+        div {
+            outline: 1px solid #888;
+            width: 200px;
+            margin: .5em auto;
+        }
+
+        p {
+            width: 50%;
+
+        }
+
+        .destaque {
+            background-color: yellow;
+
+        }
+
+        .div1 .destaque{
+            transform: translate(50px, -50px);
+        }
+
+        .div2 .destaque {
+           position: relative; 
+           top: -50px;
+           left: 50px
+
+        }
+
+        .div3 .destaque {
+            transform: rotate(45deg);
+        }
+
+        .div4 .destaque {
+            transform: scale(1.2);
+        }
+
+        .div5 .destaque {
+            transform: skew(15deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+        <p class="destaque">Elit commodi aperiam necessitatibus doloremque?</p>
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+
+
+    </div>
+    
+    <div class="div2">
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+        <p class="destaque">Elit commodi aperiam necessitatibus doloremque?</p>
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+
+
+    </div>
+
+
+    <div class="div3">
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+        <p class="destaque">Elit commodi aperiam necessitatibus doloremque?</p>
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+
+
+    </div>
+
+    <div class="div4">
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+        <p class="destaque">Elit commodi aperiam necessitatibus doloremque?</p>
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+
+
+    </div>
+
+    <div class="div5">
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+        <p class="destaque">Elit commodi aperiam necessitatibus doloremque?</p>
+        <p>Elit commodi aperiam necessitatibus doloremque?</p>
+
+
+    </div>
+
+</body>
+</html>
