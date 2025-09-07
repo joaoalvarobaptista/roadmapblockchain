@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title>Desafio Switch</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-size: 16px;
+        }
+        
+        .switch span {
+            display: inline-block;
+            width: 2em;
+            height: 1em;
+            box-sizing: border-box;
+            outline: 2px solid #ccc;
+            border-radius: 0.5em;
+        }
+
+        .switch span::after {
+            content: "";
+            display: block;
+            width: 1em;
+            height: 1em;
+            border-radius: 50%;
+            background-color: red;
+            transition: transform 0.2s;
+            transform: translateX(0);
+
+        }
+        
+        .switch input:checked+span::after {
+            transform: translateX(100%);
+        }
+        
+        .switch input[type="checkbox"] {
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            position: absolute;
+            outline: none;
+        }
+
+        .switch input:focus+span {
+            outline: 2px solid black;
+            outline-offset: 2px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Desafio 3 - Botão Switch</h1>
+
+    <label class="switch">
+        <input type="checkbox">
+        <span></span>
+        Texto
+    </label>
+</body>
+</html>
