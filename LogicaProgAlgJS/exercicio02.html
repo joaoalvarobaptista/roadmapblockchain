@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title></title>
+</head>
+<body>
+    <h1>Exercício 02</h1>    
+    <p>Elaborar um programa para uma pizzaria, o qual leia o valor total de uma
+    conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago
+    por cada cliente. </p>
+    <script> 
+        const conta = Number(prompt('Digite o valor total da conta: '));
+        const numeroClientes = Number(prompt('Digite o número de clientes pagantes na mesa: '));
+        const valorPago = conta / numeroClientes;
+        alert(`O valor da conta ${conta} será dividido por ${numeroClientes} ficando um total de ${valorPago} para cada cliente. `);
+
+    </script>
+</body>
+</html>

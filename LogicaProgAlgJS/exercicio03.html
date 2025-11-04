@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="author" content="João Alvaro de Souza Baptista">
+    <title></title>
+</head>
+<body>
+    <h1>Exercício 03</h1>    
+    <p>Elaborar um programa para uma loja, o qual leia o preço de um produto e
+    informe as opções de pagamento da loja. Calcule e informe o valor para
+    pagamento à vista com 10% de desconto e o valor em 3x. </p>
+
+    <script>
+        const preco = Number(prompt('Diga o preço da mercadoria: '));
+        const valorDesconto = preco * 0.9;
+        const valorPrazo = preco / 3;
+
+        alert(`O valor do produto é ${preco} \n À vista: ${valorDesconto} \n Ou 3x ${valorPrazo}`);
+    
+    </script>
+</body>
+</html>
